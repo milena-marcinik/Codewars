@@ -28,3 +28,11 @@ def anagrams(word, words):
             anagram.append(term)
 
     return anagram
+
+word = "abba"
+words = ['aabb', 'abcd', 'bbaa', 'dada']
+print(anagrams(word, words))
+
+word = "racer"
+words = ['crazer', 'carer', 'racar', 'caers', 'racer']
+print(anagrams(word, words))
