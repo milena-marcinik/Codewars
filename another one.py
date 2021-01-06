@@ -5,7 +5,7 @@ def is_prime(number):
     return False if number <= 1 else True
 
 
-n1 =
+n1 = 0
 n2 = n1 + 1
 n3 = n2 + 1
 n4 = n3 + 1
